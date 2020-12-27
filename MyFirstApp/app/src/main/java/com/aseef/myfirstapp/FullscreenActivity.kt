@@ -147,6 +147,10 @@ class FullscreenActivity : AppCompatActivity() {
          * Some older devices needs a small delay between UI widget updates
          * and a change of the status and navigation bar.
          */
+/**
+         * Some older devices needs a small delay between UI widget updates
+         * and a change of the status and navigation bar.
+         */
         private const val UI_ANIMATION_DELAY = 300
     }
 }
